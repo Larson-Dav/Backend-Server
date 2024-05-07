@@ -5,6 +5,6 @@ import { getUserSpecificData } from "../controller/GET/userspecificdata.controll
 
 const userSpecificRoute = Router()
 
-userSpecificRoute.get("/all/:name", getUserSpecificData)
+userSpecificRoute.get("/:name", getUserSpecificData)
 
 export default userSpecificRoute
